@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!--控制动画文件-->
+
+    <!--android:duration="1000" 动画执行的时间-->
+    <!--android:propertyName="trimPathStart" 动画属性名称-->
+    <!--android:valueFrom="0" 动画开始状态 0表示开始  1表示生产-->
+    <!--android:valueTo="1"  动画结束状态  0表示开始  1表示生产-->
+    <!--valueFrom开始时0  valueTo结束未1 那动画结束就不显示图片  反过来就显示-->
+    <!--android:repeatCount="infinite" 动画次数 infinite是无限循环 也可以指定几次比如2次-->
+    <!--android:repeatMode="reverse" 动画模式 restart重新启动  reverse表示反向-->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="5000"
+    android:propertyName="trimPathStart"
+    android:valueFrom="1"
+    android:valueTo="0"
+    android:repeatCount="infinite"
+    android:repeatMode="restart">
+
+
+
+</objectAnimator>
+
+

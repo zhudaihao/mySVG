@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!--把控制动画文件 和矢量图文件 绑定的文件--><!--android:drawable="@drawable/search_bar" 设置矢量图文件-->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/search_bar"
+    tools:targetApi="lollipop">
+
+    <!--设置控制动画文件-->
+    <!--注意  android:name="bar" 的bar需要和矢量图的path 的name属性值对应-->
+    <target
+        android:name="bar"
+        android:animation="@animator/anim_search_bar" />
+    <target
+        android:name="search"
+        android:animation="@animator/anim_search_bar" />
+
+
+</animated-vector>
